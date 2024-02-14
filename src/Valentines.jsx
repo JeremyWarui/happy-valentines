@@ -15,7 +15,7 @@ function ValentinesSurprise() {
     }, 4000);
   }, []);
 
-  const message = "I wanted to tell you, I celebrate you this day!\n Grace, you are one in a million.";
+  const message = "I wanted to tell you, I celebrate you this day!\n Grace, you are one in a million!❤🎉";
 
   const fade = useSpring({
     from: { opacity: 0, background: "none" },
@@ -44,7 +44,7 @@ function ValentinesSurprise() {
         )}
         {isRevealed && (
           <p
-            className="love-message"
+            className="love-message justify-content-center"
             style={{
               fontFamily: "Pacifico, cursive",
               fontSize: "20px", // Increase font size
