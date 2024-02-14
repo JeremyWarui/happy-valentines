@@ -25,7 +25,7 @@
     "preview": "vite preview",
     "test": "vitest"
   },
-  "homepage": "https://jeremywarui.github.io/happy-valentines",
+  "homepage": "http://JeremyWarui.github.io/happy-valentines",
   "eslintConfig": {
     "extends": [
       "react-app",
