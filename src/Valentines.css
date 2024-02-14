@@ -1,0 +1,19 @@
+@keyframes confetti-fall {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+  
+  .love-message {
+    color: white;
+    z-index: 1;
+  }
+  
+  .confetti {
+    animation: confetti-fall 10ms ease-in-out;
+    animation-fill-mode: forwards; /* or animation-iteration-count: 1; */
+  }
+  
